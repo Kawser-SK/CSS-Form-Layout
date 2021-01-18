@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#layout{
+    background: linear-gradient(to bottom right, #66ff99 0%, #ff66cc 106%);
+    height: 100%;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+.header{
+    min-height: 100px;
+    background: #283c49 !important;
+}
+.header h2{
+    color: #6afb9a
+}
+.navigation, .footer, .middle-section{
+    min-height: 100px;
+}
+.middle-section{
+    overflow: hidden;
+}
+.artical-section{
+    width: 70%;
+    float: left;
+}
+.artical{
+    min-height: 240px;
+    background:#7e90b4;
+}
+.contant{
+    min-height: 250px;
+    background: #283148;
+}
+.sidebar{
+    width: 29%;
+    float: right;
+    min-height: 500px;
+    background: #b3bbbf;
+    color: #077496;
+}
+ .navigation, .artical, .contant, .sidebar, .footer{
+    margin: 10px 0;
+}
+.header,.artical, .sidebar, .footer{
+    margin-top: 0;
+}
+.footer{
+    margin-bottom: 0;
+    background: #283c49;
+    color: #fd9dcc;
+}
+.navigation{
+    background: #62676b;
+    color: rgb(100, 199, 8);
+}
+
+   /* Form */
+
+#form{
+    background: linear-gradient( #58f758 0%, #ff99cc 106%);
+    height: 100%;
+    padding: 100px 0;
+}
+.containers{
+    width: 35%;
+    margin: 0 auto;
+    padding:50px 30px 40px 30px;
+    background: rgb(83, 231, 45); 
+}
+.containers h2, h3{
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.containers h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input[type=tel], select {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+} 
+  input[type=text], select {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+ } 
+  input[type=email], select {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    border-radius: 4px; 
+}  
+ select{
+     border: 2px solid rgb(0, 0, 0);
+ } 
+select option {
+     border: 2px solid #ddd;
+     padding: 10px 10px !important;
+ }
