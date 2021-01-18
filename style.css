@@ -67,7 +67,7 @@ h2{
    /* Form */
 
 #form{
-    background: linear-gradient( #58f758 0%, #ff99cc 106%);
+    background: #fff;
     height: 100%;
     padding: 100px 0;
 }
@@ -75,7 +75,7 @@ h2{
     width: 35%;
     margin: 0 auto;
     padding:50px 30px 40px 30px;
-    background: rgb(83, 231, 45); 
+    background: #ddd; 
 }
 .containers h2, h3{
     text-align: center;
